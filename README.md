@@ -33,58 +33,71 @@ We aim to develop a robust model by leveraging machine learning techniques to bu
 
 4. **Weight Matrix \(W\)**  
    Using the formula:  
-   \[
-   W_{i,j} = \frac{(i-j)^2}{(N-1)^2}
-   \]  
-   Weight Matrix \(W\):  
-   \[
-   W = \begin{bmatrix}
-   0 & 0.11 & 0.44 & 1 \\
-   0.11 & 0 & 0.11 & 0.44 \\
-   0.44 & 0.11 & 0 & 0.11 \\
-   1 & 0.44 & 0.11 & 0
-   \end{bmatrix}
-   \]
 
-5. **Calculation of Quadratic Weighted Kappa (\(\kappa\))**  
+   $W_{i,j} = \frac{(i-j)^2}{(N-1)^2}$
+   
+   Weight Matrix \(W\):  
+
+$$
+\begin{bmatrix}
+0 & 0.11 & 0.44 & 1 \\
+0.11 & 0 & 0.11 & 0.44 \\
+0.44 & 0.11 & 0 & 0.11 \\
+1 & 0.44 & 0.11 & 0
+\end{bmatrix}
+$$
+
+6. **Calculation of Quadratic Weighted Kappa (\(\kappa\))**  
    Observed Matrix \(O\):  
-   \[
-   O = \begin{bmatrix}
-   2 & 0 & 0 & 0 \\
-   0 & 0 & 1 & 2 \\
-   0 & 1 & 2 & 0 \\
-   0 & 2 & 0 & 2
-   \end{bmatrix}
-   \]  
+
+  $$
+\begin{bmatrix}
+2 & 0 & 0 & 0 \\
+0 & 0 & 1 & 2 \\
+0 & 1 & 2 & 0 \\
+0 & 2 & 0 & 2
+\end{bmatrix}
+$$
+
    Expected Matrix \(E\):  
-   \[
-   E = \frac{1}{10} \begin{bmatrix}
-   2 & 3 & 3 & 2 \\
-   2 & 3 & 3 & 2 \\
-   2 & 3 & 3 & 2 \\
-   2 & 3 & 3 & 2
-   \end{bmatrix} = \begin{bmatrix}
-   0.4 & 0.6 & 0.6 & 0.4 \\
-   0.4 & 0.6 & 0.6 & 0.4 \\
-   0.4 & 0.6 & 0.6 & 0.4 \\
-   0.4 & 0.6 & 0.6 & 0.4
-   \end{bmatrix}
-   \]  
+E = $\frac{1}{10}$
+
+$$
+\begin{bmatrix}  
+2×2 & 2×3 & 2×3 & 2×2 \\
+3×2 & 3×3 & 3×3 & 3×2 \\
+3×2 & 3×3 & 3×3 & 3×2 \\
+2×2 & 2×3 & 2×3 & 2×2
+\end{bmatrix}
+$$
+
+
+E =
+
+$$
+\begin{bmatrix}
+0.4 & 0.6 & 0.6 & 0.4 \\
+0.4 & 0.6 & 0.6 & 0.4 \\
+0.4 & 0.6 & 0.6 & 0.4 \\
+0.4 & 0.6 & 0.6 & 0.4
+\end{bmatrix}
+$$
 
    Calculation:  
-   \[
-   \kappa = 1 - \frac{\sum W O}{\sum W E}
-   \]  
-   Assuming:  
-   \(\sum W O = 3.8\)  
-   \(\sum W E = 5.0\)  
+
+$kappa = 1 - \frac{\sum W O}{\sum W E}$
+
+Assuming:  
+$\sum W O = 3.8\$
+And
+$\sum W E = 5.0\$
+   
    Substituting these values:  
-   \[
-   \kappa = 1 - \frac{3.8}{5.0} = 1 - 0.76 = 0.24
-   \]  
+   $kappa = 1 - \frac{3.8}{5.0} = 1 - 0.76 = 0.24$
+
 
    **Final Score**  
-   Quadratic Weighted Kappa: \(0.24\)
+   Quadratic Weighted $Kappa: \(0.24\)$
 
 
 
