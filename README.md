@@ -6,10 +6,10 @@ This project is part of a [Kaggle competition](https://www.kaggle.com/competitio
 The objective is to build a predictive model that analyzes fitness data to identify problematic internet usage patterns, particularly in contexts where clinical expertise is limited.
 
 ### Acknowledgments
-This project utilizes data provided by the Healthy Brain Network, with support from Kaggle, Dell Technologies, and NVIDIA. 
+This project utilizes data from the Healthy Brain Network, with support from Kaggle, Dell Technologies, and NVIDIA. 
 
 ### Team Contributions
-We aim to leverage machine learning techniques and NVIDIA's RAPIDS toolkit to develop a robust model, pushing the boundaries of AI-driven mental health diagnostics.
+We aim to develop a robust model by leveraging machine learning techniques to build an AI-driven mental health diagnostic tool.
 
 ### License
 [MIT License](LICENSE)
