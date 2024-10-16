@@ -18,7 +18,6 @@ We aim to develop a robust model by leveraging machine learning techniques to bu
    Predicted Labels: [0, 2, 1, 3, 3, 1, 0, 2, 2, 1]
 
 2. **Actual Histogram**  
-   Count of labels:  
    - Count of 0: 2  
    - Count of 1: 3  
    - Count of 2: 3  
@@ -26,7 +25,6 @@ We aim to develop a robust model by leveraging machine learning techniques to bu
    Actual Histogram: \([2, 3, 3, 2]\)
 
 3. **Predicted Histogram**  
-   Count of labels:  
    - Count of 0: 2  
    - Count of 1: 3  
    - Count of 2: 3  
@@ -49,8 +47,7 @@ We aim to develop a robust model by leveraging machine learning techniques to bu
    \]
 
 5. **Calculation of Quadratic Weighted Kappa (\(\kappa\))**  
-   To compute \(\kappa\):  
-   Observed Matrix \(O\) (frequency of actual vs. predicted):  
+   Observed Matrix \(O\):  
    \[
    O = \begin{bmatrix}
    2 & 0 & 0 & 0 \\
@@ -59,7 +56,7 @@ We aim to develop a robust model by leveraging machine learning techniques to bu
    0 & 2 & 0 & 2
    \end{bmatrix}
    \]  
-   Expected Matrix \(E\) (using outer product of histograms):  
+   Expected Matrix \(E\):  
    \[
    E = \frac{1}{10} \begin{bmatrix}
    2 & 3 & 3 & 2 \\
@@ -78,7 +75,7 @@ We aim to develop a robust model by leveraging machine learning techniques to bu
    \[
    \kappa = 1 - \frac{\sum W O}{\sum W E}
    \]  
-   Assuming the calculations yield:  
+   Assuming:  
    \(\sum W O = 3.8\)  
    \(\sum W E = 5.0\)  
    Substituting these values:  
@@ -88,6 +85,7 @@ We aim to develop a robust model by leveraging machine learning techniques to bu
 
    **Final Score**  
    Quadratic Weighted Kappa: \(0.24\)
+
 
 
 ### License
