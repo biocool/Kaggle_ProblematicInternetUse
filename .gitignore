@@ -7,3 +7,9 @@ Data/child-mind-institute-problematic-internet-use/series_test.parquet/
 *.iml
 *.iml
 *.xml
+*.xml
+*.iml
+*.xml
+*.pyc
+.idea/misc.xml
+/.idea
