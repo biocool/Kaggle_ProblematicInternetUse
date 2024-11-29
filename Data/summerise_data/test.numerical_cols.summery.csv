@@ -1,6 +1,5 @@
 Numerical Feature name,min,max,average,std,variance,median,# missing values,# total number of values,Instrument,Description,Type,Values,Values label
 Basic_Demos-Age,5.0,19.0,10.75,3.725799101852973,13.881578947368421,10.0,0,20,Demographics,Age of participant,float,,
-Basic_Demos-Sex,0.0,1.0,0.4,0.5026246899500346,0.2526315789473685,0.0,0,20,Demographics,Sex of participant,categorical int,"0,1","0=Male, 1=Female"
 CGAS-CGAS_Score,50.0,80.0,62.5,11.275764148954924,127.14285714285714,63.0,12,20,Children's Global Assessment Scale,Children's Global Assessment Scale Score,int,,
 Physical-BMI,14.03559028,30.09464889,19.835939166153842,4.927624502731623,24.281483239921073,18.29234694,7,20,Physical Measures,Body Mass Index (kg/m^2),float,,
 Physical-Height,37.5,60.0,52.96153846153846,6.942356523729107,48.196314102564095,55.0,7,20,Physical Measures,Height (in),float,,
@@ -13,20 +12,12 @@ Fitness_Endurance-Max_Stage,4.0,6.0,5.0,1.0,1.0,5.0,17,20,FitnessGram Vitals and
 Fitness_Endurance-Time_Mins,5.0,9.0,7.0,2.0,4.0,7.0,17,20,FitnessGram Vitals and Treadmill,Exact time completed: Minutes,int,,
 Fitness_Endurance-Time_Sec,32.0,37.0,34.0,2.6457513110645907,7.0,33.0,17,20,FitnessGram Vitals and Treadmill,Exact time completed: Seconds,int,,
 FGC-FGC_CU,0.0,24.0,8.692307692307692,7.899204763609808,62.39743589743589,6.0,7,20,FitnessGram Child,Curl up total,int,,
-FGC-FGC_CU_Zone,0.0,1.0,0.46153846153846156,0.5188745216627708,0.2692307692307693,0.0,7,20,FitnessGram Child,Curl up fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
 FGC-FGC_GSND,10.2,22.3,16.16,4.8798565552688125,23.813000000000002,16.5,15,20,FitnessGram Child,Grip Strength total (non-dominant),float,,
-FGC-FGC_GSND_Zone,1.0,2.0,1.6,0.5477225575051661,0.3,2.0,15,20,FitnessGram Child,Grip Strength fitness zone (non-dominant),categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
 FGC-FGC_GSD,11.1,21.6,16.740000000000002,3.9903633919732173,15.923000000000002,17.9,15,20,FitnessGram Child,Grip Strength total (dominant),float,,
-FGC-FGC_GSD_Zone,1.0,2.0,1.6,0.5477225575051661,0.3,2.0,15,20,FitnessGram Child,Grip Strength fitness zone (dominant),categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
 FGC-FGC_PU,0.0,20.0,4.0,5.627314338711377,31.666666666666668,2.0,7,20,FitnessGram Child,Push-up total,int,,
-FGC-FGC_PU_Zone,0.0,1.0,0.15384615384615385,0.37553380809940534,0.141025641025641,0.0,7,20,FitnessGram Child,Push-up fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
 FGC-FGC_SRL,0.0,12.0,7.5,4.0,16.0,8.0,7,20,FitnessGram Child,Sit & Reach total (left side),float,,
-FGC-FGC_SRL_Zone,0.0,1.0,0.5384615384615384,0.5188745216627708,0.2692307692307692,1.0,7,20,FitnessGram Child,Sit & Reach fitness zone (left side),categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
 FGC-FGC_SRR,0.0,15.0,7.961538461538462,4.436879245133615,19.685897435897434,9.5,7,20,FitnessGram Child,Sit & Reach total (right side),float,,
-FGC-FGC_SRR_Zone,0.0,1.0,0.6153846153846154,0.5063696835418333,0.25641025641025644,1.0,7,20,FitnessGram Child,Sit & Reach fitness zone (right side),categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
 FGC-FGC_TL,3.0,12.5,7.961538461538462,3.152125859780576,9.935897435897436,7.0,7,20,FitnessGram Child,Trunk lift total,int,,
-FGC-FGC_TL_Zone,0.0,1.0,0.6923076923076923,0.48038446141526137,0.23076923076923075,1.0,7,20,FitnessGram Child,Trunk lift fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
-BIA-BIA_Activity_Level_num,2.0,5.0,2.625,1.0606601717798212,1.125,2.0,12,20,Bio-electric Impedance Analysis,Activity Level,categorical int,"1,2,3,4,5","1=Very Light, 2=Light, 3=Moderate, 4=Heavy, 5=Exceptional"
 BIA-BIA_BMC,2.57949,5.08025,3.6363600000000003,0.8980872038632202,0.8065606257428571,3.81231,12,20,Bio-electric Impedance Analysis,Bone Mineral Content,float,,
 BIA-BIA_BMI,14.0371,30.1865,19.2847875,4.876077212103276,23.77612897839285,17.78405,12,20,Bio-electric Impedance Analysis,Body Mass Index,float,,
 BIA-BIA_BMR,932.498,1330.97,1111.248,143.72487895181644,20656.840829714285,1133.645,12,20,Bio-electric Impedance Analysis,Basal Metabolic Rate,float,,
@@ -36,7 +27,6 @@ BIA-BIA_FFM,41.5862,84.0285,60.625612499999995,15.30859657246192,234.35312901839
 BIA-BIA_FFMI,12.8254,16.6877,14.4329375,1.2275433933994233,1.5068627826785714,14.081900000000001,12,20,Bio-electric Impedance Analysis,Fat Free Mass Index,float,,
 BIA-BIA_FMI,1.21172,13.4988,4.8518574999999995,3.72820318475555,13.899498986821428,3.73714,12,20,Bio-electric Impedance Analysis,Fat Mass Index,float,,
 BIA-BIA_Fat,3.97085,67.9715,21.79939,19.920901785771935,396.8423279583714,17.53585,12,20,Bio-electric Impedance Analysis,Body Fat Percentage,float,,
-BIA-BIA_Frame_num,1.0,2.0,1.625,0.5175491695067657,0.26785714285714285,2.0,12,20,Bio-electric Impedance Analysis,Body Frame,categorical int,"1,2,3","1=Small, 2=Medium, 3=Large"
 BIA-BIA_ICW,21.0352,36.0572,28.48675,5.099448977235538,26.004379871428572,29.470399999999998,12,20,Bio-electric Impedance Analysis,Intracellular Water,float,,
 BIA-BIA_LDM,8.89536,20.902,15.457794999999999,4.021152742567377,16.16966937905714,16.40245,12,20,Bio-electric Impedance Analysis,Lean Dry Mass,float,,
 BIA-BIA_LST,38.9177,79.6982,56.989275,14.490362058549714,209.9705925878571,59.19905,12,20,Bio-electric Impedance Analysis,Lean Soft Tissue,float,,
@@ -46,4 +36,3 @@ PAQ_A-PAQ_A_Total,1.04,1.04,1.04,,,1.04,19,20,Physical Activity Questionnaire (A
 PAQ_C-PAQ_C_Total,1.1,4.11,2.372333333333333,1.0800990695301982,1.166614,2.34,11,20,Physical Activity Questionnaire (Children),Activity Summary Score (Children),float,,
 SDS-SDS_Total_Raw,27.0,46.0,36.8,5.533734925185902,30.622222222222224,37.5,10,20,Sleep Disturbance Scale,Total Raw Score,int,,
 SDS-SDS_Total_T,40.0,64.0,52.3,7.024560089033651,49.344444444444456,53.5,10,20,Sleep Disturbance Scale,Total T-Score,int,,
-PreInt_EduHx-computerinternet_hoursday,0.0,3.0,1.4375,1.1528949070347507,1.3291666666666666,2.0,4,20,Internet Use,Hours of using computer/internet,categorical int,"0,1,2,3","0=Less than 1h/day, 1=Around 1h/day, 2=Around 2hs/day, 3=More than 3hs/day"
