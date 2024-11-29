@@ -1,0 +1,11 @@
+Categorical Feature name,# unique values,imbalance ratio,# missing values,# total number of values,Instrument,Description,Type,Values,Values label
+Basic_Demos-Enroll_Season,4,1.5,0,20,Demographics,Season of enrollment,str,"Spring, Summer, Fall, Winter",
+CGAS-Season,4,5.0,10,20,Children's Global Assessment Scale,Season of participation,str,"Spring, Summer, Fall, Winter",
+Physical-Season,4,3.0,6,20,Physical Measures,Season of participation,str,"Spring, Summer, Fall, Winter",
+Fitness_Endurance-Season,3,2.0,16,20,FitnessGram Vitals and Treadmill,Season of participation,str,"Spring, Summer, Fall, Winter",
+FGC-Season,4,3.0,3,20,FitnessGram Child,Season of participation,str,"Spring, Summer, Fall, Winter",
+BIA-Season,3,1.5,12,20,Bio-electric Impedance Analysis,Season of participation,str,"Spring, Summer, Fall, Winter",
+PAQ_A-Season,1,1.0,19,20,Physical Activity Questionnaire (Adolescents),Season of participation,str,"Spring, Summer, Fall, Winter",
+PAQ_C-Season,4,3.0,11,20,Physical Activity Questionnaire (Children),Season of participation,str,"Spring, Summer, Fall, Winter",
+SDS-Season,4,1.5,10,20,Sleep Disturbance Scale,Season of participation,str,"Spring, Summer, Fall, Winter",
+PreInt_EduHx-Season,4,2.0,2,20,Internet Use,Season of participation,str,"Spring, Summer, Fall, Winter",
