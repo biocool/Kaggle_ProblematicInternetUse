@@ -1,7 +1,2 @@
-Data/child-mind-institute-problematic-internet-use/series_train.parquet/*
-Data/child-mind-institute-problematic-internet-use/series_test.parquet/*
-Data/child-mind-institute-problematic-internet-use/series_train.parquet/
-Data/child-mind-institute-problematic-internet-use/series_test.parquet/
-
 
 *.pyc
