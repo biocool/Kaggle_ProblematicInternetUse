@@ -173,9 +173,9 @@ def check_range_values(x_df, y_df=None, feature_explanation_df=None, label_col=N
         plt.savefig(output_path + '/' + mode + '.summary.space.jpg', dpi=300)
 
 
-def diff_train_test_feature_space(train_dat, test_dat, output_path=None):
+def diff_train_test_feature_space(train_dat, test_dat, label_col = 'sii', output_path=None):
 
-    train_dat_cols = set(train_dat.columns.tolist())
+    train_dat_cols = set([v for v in train_dat.columns.tolist() if v != label_col])
     test_dat_cols = set(test_dat.columns.tolist())
 
     cols_in_train_not_test = list(train_dat_cols - test_dat_cols)
