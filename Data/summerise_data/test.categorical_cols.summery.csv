@@ -1,0 +1,22 @@
+Categorical Feature name,# unique values,imbalance ratio,# missing values,# total number of values,Instrument,Description,Type,Values,Values label
+Basic_Demos-Enroll_Season,4,1.5,0,20,Demographics,Season of enrollment,str,"Spring, Summer, Fall, Winter",
+Basic_Demos-Sex,2,1.5,0,20,Demographics,Sex of participant,categorical int,"0,1","0=Male, 1=Female"
+CGAS-Season,4,5.0,10,20,Children's Global Assessment Scale,Season of participation,str,"Spring, Summer, Fall, Winter",
+Physical-Season,4,3.0,6,20,Physical Measures,Season of participation,str,"Spring, Summer, Fall, Winter",
+Fitness_Endurance-Season,3,2.0,16,20,FitnessGram Vitals and Treadmill,Season of participation,str,"Spring, Summer, Fall, Winter",
+FGC-Season,4,3.0,3,20,FitnessGram Child,Season of participation,str,"Spring, Summer, Fall, Winter",
+FGC-FGC_CU_Zone,2,1.1666666666666667,7,20,FitnessGram Child,Curl up fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FGC-FGC_GSND_Zone,2,1.5,15,20,FitnessGram Child,Grip Strength fitness zone (non-dominant),categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
+FGC-FGC_GSD_Zone,2,1.5,15,20,FitnessGram Child,Grip Strength fitness zone (dominant),categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
+FGC-FGC_PU_Zone,2,5.5,7,20,FitnessGram Child,Push-up fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FGC-FGC_SRL_Zone,2,1.1666666666666667,7,20,FitnessGram Child,Sit & Reach fitness zone (left side),categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FGC-FGC_SRR_Zone,2,1.6,7,20,FitnessGram Child,Sit & Reach fitness zone (right side),categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FGC-FGC_TL_Zone,2,2.25,7,20,FitnessGram Child,Trunk lift fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+BIA-Season,3,1.5,12,20,Bio-electric Impedance Analysis,Season of participation,str,"Spring, Summer, Fall, Winter",
+BIA-BIA_Activity_Level_num,3,5.0,12,20,Bio-electric Impedance Analysis,Activity Level,categorical int,"1,2,3,4,5","1=Very Light, 2=Light, 3=Moderate, 4=Heavy, 5=Exceptional"
+BIA-BIA_Frame_num,2,1.6666666666666667,12,20,Bio-electric Impedance Analysis,Body Frame,categorical int,"1,2,3","1=Small, 2=Medium, 3=Large"
+PAQ_A-Season,1,1.0,19,20,Physical Activity Questionnaire (Adolescents),Season of participation,str,"Spring, Summer, Fall, Winter",
+PAQ_C-Season,4,3.0,11,20,Physical Activity Questionnaire (Children),Season of participation,str,"Spring, Summer, Fall, Winter",
+SDS-Season,4,1.5,10,20,Sleep Disturbance Scale,Season of participation,str,"Spring, Summer, Fall, Winter",
+PreInt_EduHx-Season,4,2.0,2,20,Internet Use,Season of participation,str,"Spring, Summer, Fall, Winter",
+PreInt_EduHx-computerinternet_hoursday,4,3.0,4,20,Internet Use,Hours of using computer/internet,categorical int,"0,1,2,3","0=Less than 1h/day, 1=Around 1h/day, 2=Around 2hs/day, 3=More than 3hs/day"
