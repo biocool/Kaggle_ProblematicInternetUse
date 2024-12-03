@@ -19,12 +19,12 @@ def remove_non_shared_features(train_dat, test_dat):
     return train_dat
 
 
-def data_splitting(X, y, out_dir):
+def data_splitting(X, y, out_dir, test_size):
 
     # Perform stratified split
     X_train, X_test, y_train, y_test = train_test_split(
         X, y,
-        test_size=0.2,  # 20% of the data as the test set
+        test_size=test_size,
         stratify=y,  # Stratify based on the target variable
         random_state=42  # Set random state for reproducibility
     )
