@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1d22343c-5729-41a1-9a78-570ae1625081" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/summerise_data/compare_train_test_feature_space.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/summerise_data/compare_train_test_feature_space.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Scripts/dataManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Scripts/dataManipulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Scripts/dataImputation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Scripts/dataManipulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Scripts/helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Scripts/pipeline/classifiers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/running/checkData.py" beforeDir="false" afterPath="$PROJECT_DIR$/running/checkData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.CompareCSVandParquet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.checkData.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classifiers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dataImputation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dataManipulation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prepareDataForTraining.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Kaggle_ProblematicInternetUse&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.CompareCSVandParquet.executor": "Run",
+    "Python.checkData.executor": "Run",
+    "Python.check_imp.executor": "Run",
+    "Python.classifiers.executor": "Run",
+    "Python.dataImputation.executor": "Run",
+    "Python.dataManipulation.executor": "Run",
+    "Python.dataTraining.executor": "Run",
+    "Python.helper.executor": "Run",
+    "Python.just_check.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.prepareDataForTraining.executor": "Run",
+    "Python.scoreFunctions.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/Other Projects/Collaboration with Italy/new collaboration with Mohammad Shams/Mutation Analysis"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Kaggle_ProblematicInternetUse\MLKaggle\Scripts\pipeline" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\Kaggle_ProblematicInternetUse\ML\Scripts\pipeline" />
     </key>
