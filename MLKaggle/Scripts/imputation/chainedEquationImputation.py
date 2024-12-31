@@ -3,7 +3,7 @@ import miceforest as mf
 import numpy as np
 import itertools
 from MLKaggle.Scripts.imputation.defineOnehotEncoding import apply_one_hot_encoding, apply_encoding
-from MLKaggle.Scripts.imputation.scoreFunctions import normalized_rmsd_scoro_func
+from MLKaggle.Scripts.imputation.imputationPerformance import normalized_rmsd_scoro_func
 
 
 def data_prep(x_dat, na_perc, random_state):
