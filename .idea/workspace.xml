@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d22343c-5729-41a1-9a78-570ae1625081" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ML/Scripts/dataImputation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Scripts/dataManipulation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Scripts/helper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Scripts/pipeline/classifiers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/running/checkData.py" beforeDir="false" afterPath="$PROJECT_DIR$/running/checkData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +59,7 @@
       <recent name="D:\GitHub\Kaggle_ProblematicInternetUse\MLKaggle\Scripts\pipeline" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Kaggle_ProblematicInternetUse\MLKaggle\Scripts\imputation" />
       <recent name="D:\GitHub\Kaggle_ProblematicInternetUse\ML\Scripts\pipeline" />
     </key>
   </component>
