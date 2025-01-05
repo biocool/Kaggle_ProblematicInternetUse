@@ -1,0 +1,23 @@
+Categorical Feature name,# unique values,imbalance ratio,# missing values,# total number of values,Instrument,Description,Type,Values,Values label
+Basic_Demos-Enroll_Season,4,1.1273291925465838,0,2711,Demographics,Season of enrollment,str,"Spring, Summer, Fall, Winter",
+Basic_Demos-Sex,2,1.7467071935157041,0,2711,Demographics,Sex of participant,categorical int,"0,1","0=Male, 1=Female"
+CGAS-Season,4,1.2453183520599251,372,2711,Children's Global Assessment Scale,Season of participation,str,"Spring, Summer, Fall, Winter",
+Physical-Season,4,1.1783333333333332,124,2711,Physical Measures,Season of participation,str,"Spring, Summer, Fall, Winter",
+Fitness_Endurance-Season,4,1.6042553191489362,1452,2711,FitnessGram Vitals and Treadmill,Season of participation,str,"Spring, Summer, Fall, Winter",
+FGC-Season,4,1.3201376936316696,84,2711,FitnessGram Child,Season of participation,str,"Spring, Summer, Fall, Winter",
+FGC-FGC_CU_Zone,2,1.1050279329608939,827,2711,FitnessGram Child,Curl up fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FGC-FGC_GSND_Zone,3,5.161616161616162,1847,2711,FitnessGram Child,Grip Strength fitness zone (non-dominant),categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
+FGC-FGC_GSD_Zone,3,4.338842975206612,1847,2711,FitnessGram Child,Grip Strength fitness zone (dominant),categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
+FGC-FGC_PU_Zone,2,1.880184331797235,836,2711,FitnessGram Child,Push-up fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FGC-FGC_SRL_Zone,2,1.752199413489736,834,2711,FitnessGram Child,Sit & Reach fitness zone (left side),categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FGC-FGC_SRR_Zone,2,1.735080058224163,832,2711,FitnessGram Child,Sit & Reach fitness zone (right side),categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FGC-FGC_TL_Zone,2,3.4042056074766354,826,2711,FitnessGram Child,Trunk lift fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+BIA-Season,4,1.7055393586005831,867,2711,Bio-electric Impedance Analysis,Season of participation,str,"Spring, Summer, Fall, Winter",
+BIA-BIA_Activity_Level_num,5,7.851851851851852,898,2711,Bio-electric Impedance Analysis,Activity Level,categorical int,"1,2,3,4,5","1=Very Light, 2=Light, 3=Moderate, 4=Heavy, 5=Exceptional"
+BIA-BIA_Frame_num,3,3.757575757575758,898,2711,Bio-electric Impedance Analysis,Body Frame,categorical int,"1,2,3","1=Small, 2=Medium, 3=Large"
+PAQ_A-Season,4,1.2727272727272727,2349,2711,Physical Activity Questionnaire (Adolescents),Season of participation,str,"Spring, Summer, Fall, Winter",
+PAQ_C-Season,4,1.3149350649350648,1271,2711,Physical Activity Questionnaire (Children),Season of participation,str,"Spring, Summer, Fall, Winter",
+SDS-Season,4,1.1529411764705881,204,2711,Sleep Disturbance Scale,Season of participation,str,"Spring, Summer, Fall, Winter",
+PreInt_EduHx-Season,4,1.1126543209876543,11,2711,Internet Use,Season of participation,str,"Spring, Summer, Fall, Winter",
+PreInt_EduHx-computerinternet_hoursday,4,4.831417624521073,72,2711,Internet Use,Hours of using computer/internet,categorical int,"0,1,2,3","0=Less than 1h/day, 1=Around 1h/day, 2=Around 2hs/day, 3=More than 3hs/day"
+sii,4,46.411764705882355,0,2711,,,,,

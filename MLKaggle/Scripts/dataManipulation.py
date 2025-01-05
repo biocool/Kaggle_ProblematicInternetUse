@@ -6,6 +6,24 @@ import numpy as np
 
 def check_range_values(x_df, y_df=None, feature_explanation_df=None, label_col=None, output_path=None, mode=None):
 
+    """
+    Summarizes the range of values for numerical and categorical features, generates visualizations,
+    and saves the summary.
+
+    Parameters:
+    - x_df (DataFrame): Dataset containing features.
+    - y_df (DataFrame, optional): Dataset containing the target variable.
+    - feature_explanation_df (DataFrame, optional): Metadata about features, including their descriptions
+      and categories. Default is None.
+    - label_col (str, optional): Column name of the target variable. Default is None.
+    - output_path (str, optional): Directory path to save the summary and visualizations. Default is None.
+    - mode (str, optional): Label (train or test) to include in filenames for saving outputs. Default is None.
+
+    Returns:
+    - None: Saves numerical and categorical feature summaries to CSV files and generates visualizations if
+      `output_path` is provided.
+    """
+
     num_samples = x_df.shape[0]
     num_features = x_df.shape[1]
 
@@ -174,6 +192,19 @@ def check_range_values(x_df, y_df=None, feature_explanation_df=None, label_col=N
 
 
 def diff_train_test_feature_space(train_dat, test_dat, label_col = 'sii', output_path=None):
+
+    """
+    Identifies differences in the feature spaces between the training and test datasets.
+
+    Parameters:
+    - train_dat (DataFrame): Training dataset.
+    - test_dat (DataFrame): Test dataset.
+    - label_col (str, optional): Column name of the label variable. Default is 'sii'.
+    - output_path (str, optional): Directory path to save the differences as a CSV file. Default is None.
+
+    Returns:
+    - DataFrame: A DataFrame with columns listing features present in training but not in test data and vice versa.
+    """
 
     train_dat_cols = set([v for v in train_dat.columns.tolist() if v != label_col])
     test_dat_cols = set(test_dat.columns.tolist())

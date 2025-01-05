@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d22343c-5729-41a1-9a78-570ae1625081" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/summerise_data/compare_train_test_feature_space.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/summerise_data/compare_train_test_feature_space.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Scripts/dataManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Scripts/dataManipulation.py" afterDir="false" />
-    </list>
+    <list default="true" id="1d22343c-5729-41a1-9a78-570ae1625081" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,19 +36,28 @@
   &quot;keyToString&quot;: {
     &quot;Python.CompareCSVandParquet.executor&quot;: &quot;Run&quot;,
     &quot;Python.checkData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_imp.executor&quot;: &quot;Run&quot;,
     &quot;Python.classifiers.executor&quot;: &quot;Run&quot;,
     &quot;Python.dataImputation.executor&quot;: &quot;Run&quot;,
     &quot;Python.dataManipulation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataTraining.executor&quot;: &quot;Run&quot;,
+    &quot;Python.helper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.just_check.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.prepareDataForTraining.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scoreFunctions.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Kaggle_ProblematicInternetUse&quot;
+    &quot;last_opened_file_path&quot;: &quot;F:/Other Projects/Collaboration with Italy/new collaboration with Mohammad Shams/Mutation Analysis&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Kaggle_ProblematicInternetUse\MLKaggle\Scripts\pipeline" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Kaggle_ProblematicInternetUse\MLKaggle\Scripts\imputation" />
       <recent name="D:\GitHub\Kaggle_ProblematicInternetUse\ML\Scripts\pipeline" />
     </key>
   </component>

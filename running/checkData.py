@@ -1,5 +1,5 @@
-from ML.Scripts.dataManipulation import check_range_values, diff_train_test_feature_space
-from ML.Scripts.helper import separate_feature_space_label, remove_non_shared_features
+from MLKaggle.Scripts.dataManipulation import check_range_values, diff_train_test_feature_space
+from MLKaggle.Scripts.helper import separate_feature_space_label, remove_non_shared_features
 import pandas as pd
 
 if __name__ == '__main__':
@@ -28,5 +28,3 @@ if __name__ == '__main__':
                        output_path=output_path, mode='train')
     check_range_values(x_test, y_df=None, feature_explanation_df=feature_explanation_df, label_col=None,
                        output_path=output_path, mode='test')
-
-
