@@ -32,26 +32,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.CompareCSVandParquet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.checkData.executor&quot;: &quot;Run&quot;,
-    &quot;Python.check_imp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classifiers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dataImputation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dataManipulation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dataTraining.executor&quot;: &quot;Run&quot;,
-    &quot;Python.helper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.just_check.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prepareDataForTraining.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scoreFunctions.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Other Projects/Collaboration with Italy/new collaboration with Mohammad Shams/Mutation Analysis&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.CompareCSVandParquet.executor": "Run",
+    "Python.checkData.executor": "Run",
+    "Python.check_imp.executor": "Run",
+    "Python.classifiers.executor": "Run",
+    "Python.dataImputation.executor": "Run",
+    "Python.dataManipulation.executor": "Run",
+    "Python.dataTraining.executor": "Run",
+    "Python.helper.executor": "Run",
+    "Python.just_check.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.prepareDataForTraining.executor": "Run",
+    "Python.scoreFunctions.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/GitHub/HIV-weight"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\Kaggle_ProblematicInternetUse\MLKaggle\Scripts\pipeline" />
